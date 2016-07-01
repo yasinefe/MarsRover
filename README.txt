@@ -1,8 +1,7 @@
 COMMENTS
 --------------------------------
-I will give some dteails about this implementation.
+I will give some details about this implementation.
 
-- I spend almost 10 hours for this implementation.
 - Unit test coverage is %99.
 - I used only third party jar such as JUnit and Mockito for unit test.
 - If you want to measure unit test coverage you should use 'mvn cobertura:cobertura' command
