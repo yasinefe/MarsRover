@@ -1,5 +1,5 @@
-COMMENTS
---------------------------------
+# COMMENTS
+
 I will give some details about this implementation.
 
 - Unit test coverage is %99.
@@ -8,21 +8,12 @@ I will give some details about this implementation.
 - I used 'Should' for unit test classes and I configured cobertura to see my test classes in pom.xml
 - You can find cobertura coverage report in the RAR file in target folder.
 
-USAGE
---------------------------------
+# USAGE
+
 - You can use com.musicqubed.marsrover.Main to try the implementation
 
-ASSUMPTIONS
---------------------------------
-I did some assumptions
+# NEW FEATURES CAN BE ADDED
 
-- Logging should have been done but I did not use log4j or something else for logging and I did not write any log.
-- Normally, I develop unit tests and write the implementation and watch the logs if logs are enough.
-- I wrote integration test as unit test. I know that integration tests must be written with a BDD framework such as JBehave, Spock, Cucumber or a scripting language from outside such as Ruby, Groovy, I want to keep simple for this case.
-- In addition, integration test must be run from outside like blackbox testing but we have no interface. Of course this is not an application or service this is a simple module.
-
-NEW FEATURES CAN BE ADDED
---------------------------------
 Following feature can be added but I did not.
 
 - I used command pattern, and I separate rover implementation and command pattern via Rover interfaces
